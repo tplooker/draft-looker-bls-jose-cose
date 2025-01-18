@@ -5,8 +5,8 @@
 COSE                                                           T. Looker
 Internet-Draft                                                     Mattr
 Intended status: Standards Track                                M. Jones
-Expires: 18 September 2024                        Self-Issued Consulting
-                                                           17 March 2024
+Expires: 22 July 2025                             Self-Issued Consulting
+                                                         18 January 2025
 
 
 Barreto-Lynn-Scott Elliptic Curve Key Representations for JOSE and COSE
@@ -41,11 +41,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 September 2024.
+   This Internet-Draft will expire on 22 July 2025.
 
 Copyright Notice
 
-   Copyright (c) 2024 IETF Trust and the persons identified as the
+   Copyright (c) 2025 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -408,21 +408,11 @@ Table of Contents
               RFC 8152, DOI 10.17487/RFC8152, July 2017,
               <https://www.rfc-editor.org/info/rfc8152>.
 
-   [id.draft.bls-signature]
-              IETF CFRG, "BLS Signatures", 16 June 2022,
-              <https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-
-              bls-signature-05>.
-
-   [id.draft.pairing-friendly-curves]
-              IETF CFRG, "Pairing-Friendly Curves", 10 May 2023,
-              <https://www.ietf.org/archive/id/draft-irtf-cfrg-pairing-
-              friendly-curves-11.html>.
-
 5.2.  Informative References
 
-   [BBS]      IETF CFRG, "The BBS Signature Scheme", 21 December 2023,
+   [BBS]      IETF CFRG, "The BBS Signature Scheme", 23 September 2024,
               <https://www.ietf.org/archive/id/draft-irtf-cfrg-bbs-
-              signatures-05.html>.
+              signatures-07.html>.
 
    [ECDAA]    FIDO Alliance, "ECDAA Algorithm", 2018,
               <https://fidoalliance.org/specs/fido-v2.0-id-20180227/
@@ -480,6 +470,16 @@ Table of Contents
 
    [TPM]      Trusted Computing Group, "Trusted Platform Module",
               <https://trustedcomputinggroup.org/>.
+
+   [id.draft.bls-signature]
+              IETF CFRG, "BLS Signatures", 16 June 2022,
+              <https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-
+              bls-signature-05>.
+
+   [id.draft.pairing-friendly-curves]
+              IETF CFRG, "Pairing-Friendly Curves", 10 May 2023,
+              <https://www.ietf.org/archive/id/draft-irtf-cfrg-pairing-
+              friendly-curves-11.html>.
 
 Appendix A.  JSON Web Key Examples
 
@@ -966,6 +966,12 @@ Appendix C.  Acknowledgments
    to thank David Waite for his contributions to the specification.
 
 Appendix D.  Document History
+
+   -06
+
+   *  Updated draft-irtf-cfrg-bbs-signatures reference.
+   *  Made draft-irtf-cfrg-bls-signature and draft-irtf-cfrg-pairing-
+      friendly-curves references informative.
 
    -05
 
