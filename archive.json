@@ -1,7 +1,7 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-03-22T00:13:38.872257+00:00",
-  "repo": "tplooker/draft-looker-cose-bls-key-representations",
+  "timestamp": "2025-01-19T00:02:02.174359+00:00",
+  "repo": "tplooker/draft-ietf-cose-bls-key-representations",
   "labels": [
     {
       "name": "bug",
@@ -24,14 +24,14 @@
       "color": "a2eeef"
     },
     {
-      "name": "help wanted",
-      "description": "Extra attention is needed",
-      "color": "008672"
-    },
-    {
       "name": "good first issue",
       "description": "Good for newcomers",
       "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
     },
     {
       "name": "invalid",
@@ -54,7 +54,7 @@
       "number": 1,
       "id": "I_kwDOGwQuwM5Co3kl",
       "title": "Private key representation",
-      "url": "https://github.com/tplooker/draft-looker-cose-bls-key-representations/issues/1",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/issues/1",
       "state": "CLOSED",
       "author": "tplooker",
       "authorAssociation": "OWNER",
@@ -78,23 +78,30 @@
       "number": 2,
       "id": "I_kwDOGwQuwM5Co3le",
       "title": "Add example COSE and JOSE key representations",
-      "url": "https://github.com/tplooker/draft-looker-cose-bls-key-representations/issues/2",
-      "state": "OPEN",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/issues/2",
+      "state": "CLOSED",
       "author": "tplooker",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2022-01-29T02:59:55Z",
-      "updatedAt": "2022-03-01T05:12:05Z",
-      "closedAt": null,
+      "updatedAt": "2024-09-17T00:13:38Z",
+      "closedAt": "2024-09-17T00:13:38Z",
       "comments": [
         {
           "author": "selfissued",
-          "authorAssociation": "NONE",
+          "authorAssociation": "COLLABORATOR",
           "body": "I agree that adding example key representations would improve the spec - particularly for developers.  That said, if time is an issue, I don't think adding them is necessary before submitting the -00 draft to the IETF.",
           "createdAt": "2022-03-01T05:12:05Z",
           "updatedAt": "2022-03-01T05:12:05Z"
+        },
+        {
+          "author": "selfissued",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Appendix A is JOSE examples.  Appendix B is COSE examples.",
+          "createdAt": "2024-09-17T00:13:38Z",
+          "updatedAt": "2024-09-17T00:13:38Z"
         }
       ]
     },
@@ -102,7 +109,7 @@
       "number": 3,
       "id": "I_kwDOGwQuwM5DJBrB",
       "title": "Relation to existing draft?",
-      "url": "https://github.com/tplooker/draft-looker-cose-bls-key-representations/issues/3",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/issues/3",
       "state": "CLOSED",
       "author": "quartzjer",
       "authorAssociation": "NONE",
@@ -133,10 +140,10 @@
       "number": 5,
       "id": "I_kwDOGwQuwM5DbKZO",
       "title": "References needed for some cited related work",
-      "url": "https://github.com/tplooker/draft-looker-cose-bls-key-representations/issues/5",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/issues/5",
       "state": "CLOSED",
       "author": "selfissued",
-      "authorAssociation": "NONE",
+      "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "The draft includes \"Further work on a similar scheme has also been progressed at the FIDO Alliance and W3C. Similarly Intel released (EPID) which provides a solution to remote hardware attestation for Intel Software Guard Extension (SGX) enabled environments.\"  IETF style guidelines say that if we're citing work, we should provide references to it.",
@@ -157,7 +164,7 @@
       "number": 7,
       "id": "I_kwDOGwQuwM5DdCrY",
       "title": "Add some additional non-normative commentary on the applications of BLS12-381",
-      "url": "https://github.com/tplooker/draft-looker-cose-bls-key-representations/issues/7",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/issues/7",
       "state": "CLOSED",
       "author": "tplooker",
       "authorAssociation": "OWNER",
@@ -170,7 +177,7 @@
       "comments": [
         {
           "author": "selfissued",
-          "authorAssociation": "NONE",
+          "authorAssociation": "COLLABORATOR",
           "body": "Let's add a reference to https://json-web-proofs.github.io/json-web-proofs/draft-jmiller-json-proof-algorithms.html#name-bls-curve.",
           "createdAt": "2022-02-23T18:06:41Z",
           "updatedAt": "2022-02-23T18:06:41Z"
@@ -181,10 +188,10 @@
       "number": 9,
       "id": "I_kwDOGwQuwM5Ec5CP",
       "title": "Rename draft to conform to IETF naming conventions",
-      "url": "https://github.com/tplooker/draft-looker-cose-bls-key-representations/issues/9",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/issues/9",
       "state": "CLOSED",
       "author": "selfissued",
-      "authorAssociation": "NONE",
+      "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "To submit to the COSE working group, the draft name must be of the form `draft-<lastname>-cose-<draftname>`.  I'd suggest the identifier `draft-looker-cose-bls-curves-representations` or something similar.\r\n\r\nNote that both the filename and the draft name in the markdown (which is currently `draft-looker-bls-jose-cose-00`) need to be changed.",
@@ -205,16 +212,16 @@
       "number": 11,
       "id": "I_kwDOGwQuwM5F-yG0",
       "title": "Are the JOSE registrations missing \"Key Type: OKP\"?",
-      "url": "https://github.com/tplooker/draft-looker-cose-bls-key-representations/issues/11",
-      "state": "OPEN",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/issues/11",
+      "state": "CLOSED",
       "author": "quartzjer",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "It's in each of the COSE registrations, should it be in the JOSE ones too?",
       "createdAt": "2022-03-18T22:36:04Z",
-      "updatedAt": "2022-03-20T00:19:22Z",
-      "closedAt": null,
+      "updatedAt": "2024-03-12T02:56:31Z",
+      "closedAt": "2024-03-12T02:56:30Z",
       "comments": [
         {
           "author": "tplooker",
@@ -222,6 +229,13 @@
           "body": "If by registration you mean the IANA section for each then the reason they key type is absent in the JOSE registrations is that it is not required for that IANA registry [see here](https://www.iana.org/assignments/jose/jose.xhtml#web-key-elliptic-curve), whereas with COSE the key type forms part of the registration [see here](https://www.iana.org/assignments/cose/cose.xhtml#elliptic-curves)",
           "createdAt": "2022-03-20T00:19:22Z",
           "updatedAt": "2022-03-20T00:19:22Z"
+        },
+        {
+          "author": "selfissued",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@tplooker's analysis of the issue is correct.",
+          "createdAt": "2024-03-12T02:56:30Z",
+          "updatedAt": "2024-03-12T02:56:30Z"
         }
       ]
     },
@@ -229,7 +243,7 @@
       "number": 12,
       "id": "I_kwDOGwQuwM5F-0HQ",
       "title": "Key identifier?",
-      "url": "https://github.com/tplooker/draft-looker-cose-bls-key-representations/issues/12",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/issues/12",
       "state": "OPEN",
       "author": "quartzjer",
       "authorAssociation": "NONE",
@@ -248,6 +262,68 @@
           "updatedAt": "2022-03-20T00:25:35Z"
         }
       ]
+    },
+    {
+      "number": 21,
+      "id": "I_kwDOGwQuwM5jmw7t",
+      "title": "Add code point for 48 bytes BLS12-381 signatures",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/issues/21",
+      "state": "OPEN",
+      "author": "emanjon",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "As discussed at IETF 116 there are several reasons to also register a signature algorithm. BLS signatures do not have to be used with aggregations. They can also be used as a replacement for ordinary ECDSA signatures. The benefit with a BLS12-381 signatures are that they are 48 bytes instead of the 64 bytes for ECDSA and EdDSA. This would be a nice addition to COSE.\r\n\r\nOther people agreed and stated that registering a signature should be done just to make the document complete and useful in it self.\r\n\r\nOne use case for 48 bytes BLS12-381 signatures is Group OSCORE. With 48 bytes signatures you could in quite many cases get away with sending one frame less which is a big win. \r\n",
+      "createdAt": "2023-04-17T12:52:26Z",
+      "updatedAt": "2024-03-12T02:59:08Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "OR13",
+          "authorAssociation": "NONE",
+          "body": "I still support this idea : )\r\n\r\nHow hard would it be to add this?\r\n\r\nSeems we need to register an \"alg\" and define the structure of the signature.\r\n\r\nSimilar to https://www.rfc-editor.org/rfc/rfc8812.html#name-ecdsa-signature-with-secp25\r\n\r\n@emanjon any proposals for the \"alg\" name?\r\n\r\n... \"BLS12\" ?",
+          "createdAt": "2023-04-17T13:26:11Z",
+          "updatedAt": "2023-04-17T13:28:02Z"
+        },
+        {
+          "author": "OR13",
+          "authorAssociation": "NONE",
+          "body": "Assuming it is possible, I can generate some test vectors from https://github.com/paulmillr/noble-bls12-381",
+          "createdAt": "2023-04-17T13:41:02Z",
+          "updatedAt": "2023-04-17T13:41:02Z"
+        },
+        {
+          "author": "selfissued",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@tplooker, should we discuss this at IETF 119?",
+          "createdAt": "2024-03-12T02:59:07Z",
+          "updatedAt": "2024-03-12T02:59:07Z"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "id": "I_kwDOGwQuwM5y26V7",
+      "title": "Bls should be BLS",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/issues/22",
+      "state": "CLOSED",
+      "author": "selfissued",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "All of the letters b l s should be capitalized, since they are initials for people's names.  @dwaite pointed this out to me during a JWP call.",
+      "createdAt": "2023-10-04T21:18:06Z",
+      "updatedAt": "2024-03-17T22:49:53Z",
+      "closedAt": "2024-03-17T22:49:53Z",
+      "comments": [
+        {
+          "author": "dwaite",
+          "authorAssociation": "NONE",
+          "body": "Any progress on this? I assume the S should be capitalized since it is a person's name (Scott)",
+          "createdAt": "2024-03-04T21:28:49Z",
+          "updatedAt": "2024-03-04T21:29:31Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -255,19 +331,19 @@
       "number": 4,
       "id": "PR_kwDOGwQuwM4ycYLC",
       "title": "Mike's initial contributions",
-      "url": "https://github.com/tplooker/draft-looker-cose-bls-key-representations/pull/4",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/4",
       "state": "MERGED",
       "author": "selfissued",
-      "authorAssociation": "NONE",
+      "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2022-02-10T23:00:43Z",
       "updatedAt": "2022-02-11T03:52:08Z",
-      "baseRepository": "tplooker/draft-looker-cose-bls-key-representations",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
       "baseRefName": "main",
       "baseRefOid": "18b56458c96a34a4d53e652adc039a382101d307",
-      "headRepository": "selfissued/draft-looker-bls-jose-cose",
+      "headRepository": "selfissued/draft-ietf-cose-bls-key-representations",
       "headRefName": "mbj-initial-contributions",
       "headRefOid": "29fa0cb582d3f75277c088e30fca6681872754f6",
       "closedAt": "2022-02-11T03:52:08Z",
@@ -310,7 +386,7 @@
       "number": 6,
       "id": "PR_kwDOGwQuwM4yeGAg",
       "title": "Add relivant references to introduction",
-      "url": "https://github.com/tplooker/draft-looker-cose-bls-key-representations/pull/6",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/6",
       "state": "MERGED",
       "author": "tplooker",
       "authorAssociation": "OWNER",
@@ -319,10 +395,10 @@
       "body": "",
       "createdAt": "2022-02-11T04:07:25Z",
       "updatedAt": "2022-02-13T09:03:46Z",
-      "baseRepository": "tplooker/draft-looker-cose-bls-key-representations",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
       "baseRefName": "main",
       "baseRefOid": "e98d848c25d9f0642565479bab7d0580cfc08713",
-      "headRepository": "tplooker/draft-looker-cose-bls-key-representations",
+      "headRepository": "tplooker/draft-ietf-cose-bls-key-representations",
       "headRefName": "tl/update-intro-refs",
       "headRefOid": "773affbb36bd25a6c89277077b057235987275f3",
       "closedAt": "2022-02-11T04:09:59Z",
@@ -339,7 +415,7 @@
             "abbreviatedOid": "773affb"
           },
           "author": "selfissued",
-          "authorAssociation": "NONE",
+          "authorAssociation": "COLLABORATOR",
           "state": "APPROVED",
           "body": "LGTM",
           "createdAt": "2022-02-11T04:09:15Z",
@@ -352,7 +428,7 @@
       "number": 8,
       "id": "PR_kwDOGwQuwM4y5oSS",
       "title": "Update intro and sec considerations",
-      "url": "https://github.com/tplooker/draft-looker-cose-bls-key-representations/pull/8",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/8",
       "state": "MERGED",
       "author": "tplooker",
       "authorAssociation": "OWNER",
@@ -361,10 +437,10 @@
       "body": "Attempts to make it more apparent what the immediate application of standardizing these cryptographic keys is useful for, also adds a section that notes implementers should be aware of using the keys within various algorithms",
       "createdAt": "2022-02-16T04:31:02Z",
       "updatedAt": "2022-02-16T07:51:06Z",
-      "baseRepository": "tplooker/draft-looker-cose-bls-key-representations",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
       "baseRefName": "main",
       "baseRefOid": "447388a19e1262af7559a8f3473b0a2d3319204b",
-      "headRepository": "tplooker/draft-looker-cose-bls-key-representations",
+      "headRepository": "tplooker/draft-ietf-cose-bls-key-representations",
       "headRefName": "tl/update-intro",
       "headRefOid": "7572c759518edf37c360f3b3280c22f86a670634",
       "closedAt": "2022-02-16T07:51:02Z",
@@ -381,7 +457,7 @@
             "abbreviatedOid": "2424b92"
           },
           "author": "selfissued",
-          "authorAssociation": "NONE",
+          "authorAssociation": "COLLABORATOR",
           "state": "APPROVED",
           "body": "Please merge when ready after applying the single grammatical correction that I suggested in my comment.",
           "createdAt": "2022-02-16T04:40:28Z",
@@ -421,7 +497,7 @@
       "number": 10,
       "id": "PR_kwDOGwQuwM4zXt5k",
       "title": "Add reference to jwp in intro",
-      "url": "https://github.com/tplooker/draft-looker-cose-bls-key-representations/pull/10",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/10",
       "state": "MERGED",
       "author": "tplooker",
       "authorAssociation": "OWNER",
@@ -430,10 +506,10 @@
       "body": "Fixes #7",
       "createdAt": "2022-02-23T21:39:54Z",
       "updatedAt": "2022-03-01T07:05:40Z",
-      "baseRepository": "tplooker/draft-looker-cose-bls-key-representations",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
       "baseRefName": "main",
       "baseRefOid": "c7af9ec455da8a03b4ed22e0e1c364cf8f0b1eac",
-      "headRepository": "tplooker/draft-looker-cose-bls-key-representations",
+      "headRepository": "tplooker/draft-ietf-cose-bls-key-representations",
       "headRefName": "tl/add-jwp-reference",
       "headRefOid": "88cd8cb6794a3e13f75da22d9e2ab7622797b55e",
       "closedAt": "2022-03-01T07:05:36Z",
@@ -458,11 +534,807 @@
             "abbreviatedOid": "88cd8cb"
           },
           "author": "selfissued",
-          "authorAssociation": "NONE",
+          "authorAssociation": "COLLABORATOR",
           "state": "APPROVED",
           "body": "Merge it!",
           "createdAt": "2022-03-01T04:57:56Z",
           "updatedAt": "2022-03-01T04:57:56Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": "PR_kwDOGwQuwM47Eeev",
+      "title": "Rename draft to reflect cose WG adoption",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/13",
+      "state": "MERGED",
+      "author": "tplooker",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "As per the title following the formal adoption by the COSE WG this PR updates the draft name to reflect this.",
+      "createdAt": "2022-07-08T00:23:45Z",
+      "updatedAt": "2023-02-19T08:11:18Z",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "baseRefName": "main",
+      "baseRefOid": "ece3858964f92d0b3cd890a92f001b525fd47365",
+      "headRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "headRefName": "tl/rename-draft",
+      "headRefOid": "f4ac01a43df2c03894f72e4028ab97b0e693b141",
+      "closedAt": "2022-07-09T01:41:26Z",
+      "mergedAt": "2022-07-09T01:41:26Z",
+      "mergedBy": "tplooker",
+      "mergeCommit": {
+        "oid": "7a39ab9b9c12be202f90cbe1eb2410c23de88306"
+      },
+      "comments": [
+        {
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "body": "@selfissued",
+          "createdAt": "2022-07-08T00:24:09Z",
+          "updatedAt": "2022-07-08T00:24:09Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGwQuwM49ifUL",
+          "commit": {
+            "abbreviatedOid": "ad643c4"
+          },
+          "author": "selfissued",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "There should be a Document History appendix, with this content:\r\n\r\n-00\r\n\r\n- Created draft-ietf-cose-bls-key-representations-00 from draft-looker-cose-bls-key-representations-00 following working group adoption.\r\n\r\n(See https://www.ietf.org/archive/id/draft-ietf-oauth-jwk-thumbprint-uri-03.html#name-document-history for an example of such a Document History section.)",
+          "createdAt": "2022-07-08T06:24:49Z",
+          "updatedAt": "2022-07-08T06:24:49Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "id": "PR_kwDOGwQuwM5BUKbl",
+      "title": "Add jwk example for BLS12-381 curve",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/14",
+      "state": "MERGED",
+      "author": "tplooker",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2022-10-21T21:34:02Z",
+      "updatedAt": "2023-02-19T08:11:15Z",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "baseRefName": "main",
+      "baseRefOid": "e57c5a817483d4fb1bef23b2c9ebec4513be8535",
+      "headRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "headRefName": "tl/key-representation",
+      "headRefOid": "6c2c5fc17a44a3e2379c61fdd4e8a8e780776c4b",
+      "closedAt": "2022-10-24T20:26:06Z",
+      "mergedAt": "2022-10-24T20:26:06Z",
+      "mergedBy": "BasileiosKal",
+      "mergeCommit": {
+        "oid": "6c2c5fc17a44a3e2379c61fdd4e8a8e780776c4b"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGwQuwM5Eo6wk",
+          "commit": {
+            "abbreviatedOid": "6c2c5fc"
+          },
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-10-21T21:36:18Z",
+          "updatedAt": "2022-10-21T21:36:19Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "While it is possible to share a common private key and generate two public keys across the two sub-groups this violates common practise around key reusage, I will update the example to have distinct key pairs. @selfissued, do you think we should offer a security consideration about this case, I'm not aware of any particular insecurity that this would create, however it would algorithm dependent.",
+              "createdAt": "2022-10-21T21:36:18Z",
+              "updatedAt": "2022-10-21T21:36:19Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGwQuwM5Exm03",
+          "commit": {
+            "abbreviatedOid": "6c2c5fc"
+          },
+          "author": "selfissued",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "Approved, with comment",
+          "createdAt": "2022-10-24T21:52:57Z",
+          "updatedAt": "2022-10-24T21:53:16Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "I think it's worth mentioning the tradeoffs, at least at the level you're describing them in this comment.  It may cause people who know more than we do to weigh in.",
+              "createdAt": "2022-10-24T21:52:57Z",
+              "updatedAt": "2022-10-24T21:53:16Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "id": "PR_kwDOGwQuwM5Bchvd",
+      "title": "Add jwk examples",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/15",
+      "state": "MERGED",
+      "author": "BasileiosKal",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "2 JWK examples for each subgroup of Bls12381",
+      "createdAt": "2022-10-24T20:42:31Z",
+      "updatedAt": "2022-10-24T22:28:15Z",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "baseRefName": "main",
+      "baseRefOid": "e57c5a817483d4fb1bef23b2c9ebec4513be8535",
+      "headRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "headRefName": "vasilis/jwk-examples",
+      "headRefOid": "ea8d17e15aa2fbde11af20c2297708aadb130a3e",
+      "closedAt": "2022-10-24T22:28:09Z",
+      "mergedAt": "2022-10-24T22:28:09Z",
+      "mergedBy": "tplooker",
+      "mergeCommit": {
+        "oid": "b753edd3e9a08fc88d1a3b4067ab95f4d638fd0a"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGwQuwM5Exat5",
+          "commit": {
+            "abbreviatedOid": "32285eb"
+          },
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-10-24T21:08:13Z",
+          "updatedAt": "2022-10-24T21:08:13Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "The crv value is case sensitive",
+              "createdAt": "2022-10-24T21:08:13Z",
+              "updatedAt": "2022-10-24T21:08:13Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGwQuwM5Excr-",
+          "commit": {
+            "abbreviatedOid": "32285eb"
+          },
+          "author": "BasileiosKal",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-10-24T21:15:51Z",
+          "updatedAt": "2022-10-24T21:15:51Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "Fixed.",
+              "createdAt": "2022-10-24T21:15:51Z",
+              "updatedAt": "2022-10-24T21:15:52Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGwQuwM5ExnRu",
+          "commit": {
+            "abbreviatedOid": "691477b"
+          },
+          "author": "selfissued",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "Approved with comment",
+          "createdAt": "2022-10-24T21:55:01Z",
+          "updatedAt": "2022-10-24T21:55:13Z",
+          "comments": [
+            {
+              "originalPosition": 12,
+              "body": "It might be worth a comment saying that these - on purpose - represent private keys.  Otherwise people might question the inclusion of \"d\".",
+              "createdAt": "2022-10-24T21:55:02Z",
+              "updatedAt": "2022-10-24T21:55:13Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGwQuwM5Exrq7",
+          "commit": {
+            "abbreviatedOid": "691477b"
+          },
+          "author": "BasileiosKal",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-10-24T22:13:34Z",
+          "updatedAt": "2022-10-24T22:13:34Z",
+          "comments": [
+            {
+              "originalPosition": 12,
+              "body": "Thanks! Added a note in the beginning of the Section.",
+              "createdAt": "2022-10-24T22:13:34Z",
+              "updatedAt": "2022-10-24T22:13:34Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGwQuwM5Ext3p",
+          "commit": {
+            "abbreviatedOid": "9252fde"
+          },
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-10-24T22:22:48Z",
+          "updatedAt": "2022-10-24T22:22:48Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "```suggestion\r\nThe following examples showcase JWKs for both the G1 and G2 subgroups of the Bls12381 curve. Note, the examples also include the corresponding private key, expressed through the inclusion of the \u201cd\u201d parameter.\r\n```",
+              "createdAt": "2022-10-24T22:22:48Z",
+              "updatedAt": "2022-10-24T22:22:48Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGwQuwM5ExuGv",
+          "commit": {
+            "abbreviatedOid": "82b0246"
+          },
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-10-24T22:24:09Z",
+          "updatedAt": "2022-10-24T22:24:09Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "```suggestion\r\nAn example JWK for the Bls12381 curve where the public key is in the G1 subgroup.\r\n```",
+              "createdAt": "2022-10-24T22:24:09Z",
+              "updatedAt": "2022-10-24T22:24:09Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGwQuwM5ExuMW",
+          "commit": {
+            "abbreviatedOid": "8fe1093"
+          },
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-10-24T22:24:40Z",
+          "updatedAt": "2022-10-24T22:24:40Z",
+          "comments": [
+            {
+              "originalPosition": 18,
+              "body": "```suggestion\r\nAnother example of a different JWK for the Bls12381 curve where the public key is in the G1 subgroup.\r\n```",
+              "createdAt": "2022-10-24T22:24:40Z",
+              "updatedAt": "2022-10-24T22:24:40Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGwQuwM5ExuQA",
+          "commit": {
+            "abbreviatedOid": "8a48089"
+          },
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-10-24T22:24:58Z",
+          "updatedAt": "2022-10-24T22:24:58Z",
+          "comments": [
+            {
+              "originalPosition": 17,
+              "body": "```suggestion\r\n```\r\n\r\n```",
+              "createdAt": "2022-10-24T22:24:58Z",
+              "updatedAt": "2022-10-24T22:24:58Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGwQuwM5Exuxt",
+          "commit": {
+            "abbreviatedOid": "ea8d17e"
+          },
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2022-10-24T22:28:01Z",
+          "updatedAt": "2022-10-24T22:28:01Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "id": "PR_kwDOGwQuwM5CcA81",
+      "title": "feat: add cose key examples",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/16",
+      "state": "CLOSED",
+      "author": "tplooker",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Adds COSE_Key examples to appendix.",
+      "createdAt": "2022-11-08T15:50:21Z",
+      "updatedAt": "2023-03-13T08:25:29Z",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "baseRefName": "main",
+      "baseRefOid": "8ecbb92adda9ec904657dcad1db1900235573405",
+      "headRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "headRefName": "tl/cose-key",
+      "headRefOid": "54238164b0beabb4ca4d40de7978eb7db0cff1c7",
+      "closedAt": "2023-03-13T08:25:29Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGwQuwM5PoOFS",
+          "commit": {
+            "abbreviatedOid": "5423816"
+          },
+          "author": "selfissued",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-11T23:05:12Z",
+          "updatedAt": "2023-03-11T23:05:12Z",
+          "comments": [
+            {
+              "originalPosition": 45,
+              "body": "Why are the x and d values of different lengths?  That seems suspicious to me.\r\n\r\nIf it's omitting leading zeros, for instance, that's not what JWKs do.",
+              "createdAt": "2023-03-11T23:05:12Z",
+              "updatedAt": "2023-03-11T23:05:13Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGwQuwM5PoOMx",
+          "commit": {
+            "abbreviatedOid": "5423816"
+          },
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-11T23:13:37Z",
+          "updatedAt": "2023-03-11T23:13:37Z",
+          "comments": [
+            {
+              "originalPosition": 45,
+              "body": "The length of the private key is given by the field size while the compressed representation of the public key (using the x parameter) is derived from the group size, I'll add some text to clarify this.",
+              "createdAt": "2023-03-11T23:13:37Z",
+              "updatedAt": "2023-03-11T23:13:37Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "id": "PR_kwDOGwQuwM5KRqUq",
+      "title": "Address review comments from john mattsson",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/17",
+      "state": "MERGED",
+      "author": "tplooker",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Adds another reference to an applicable RFC, fixes typo around sub group.",
+      "createdAt": "2023-02-18T22:31:30Z",
+      "updatedAt": "2023-02-19T08:03:36Z",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "baseRefName": "main",
+      "baseRefOid": "8ecbb92adda9ec904657dcad1db1900235573405",
+      "headRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "headRefName": "tl/john-mattsson-review",
+      "headRefOid": "268b2ede9c3788f97065dc9103a87d727fa6b05b",
+      "closedAt": "2023-02-19T08:03:24Z",
+      "mergedAt": "2023-02-19T08:03:24Z",
+      "mergedBy": "tplooker",
+      "mergeCommit": {
+        "oid": "6f309e06058b8cd1d302aa66d05009152387a37c"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGwQuwM5NxHDR",
+          "commit": {
+            "abbreviatedOid": "268b2ed"
+          },
+          "author": "selfissued",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "LGTM",
+          "createdAt": "2023-02-19T05:13:31Z",
+          "updatedAt": "2023-02-19T05:13:31Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "id": "PR_kwDOGwQuwM5L0poc",
+      "title": "feat: adding Bls48581 and COSE_key fixtures",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/18",
+      "state": "CLOSED",
+      "author": "BasileiosKal",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-03-11T16:16:01Z",
+      "updatedAt": "2023-03-13T08:25:37Z",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "baseRefName": "main",
+      "baseRefOid": "6f309e06058b8cd1d302aa66d05009152387a37c",
+      "headRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "headRefName": "vasilis/test-vectors",
+      "headRefOid": "20631a09c77b22902eb0b769af23320c50b7930a",
+      "closedAt": "2023-03-13T08:25:37Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 19,
+      "id": "PR_kwDOGwQuwM5L154f",
+      "title": "feat: use pub key coordinates for encoding",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/19",
+      "state": "MERGED",
+      "author": "BasileiosKal",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This PR makes #18 obsolete.",
+      "createdAt": "2023-03-12T20:00:08Z",
+      "updatedAt": "2023-03-13T21:15:40Z",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "baseRefName": "main",
+      "baseRefOid": "6f309e06058b8cd1d302aa66d05009152387a37c",
+      "headRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "headRefName": "vasilis/update-pub-key-encoding",
+      "headRefOid": "6b30ab2eb5c582e15e17748824a0bc1c0eca51a1",
+      "closedAt": "2023-03-13T21:15:26Z",
+      "mergedAt": "2023-03-13T21:15:26Z",
+      "mergedBy": "tplooker",
+      "mergeCommit": {
+        "oid": "79d2a92a03ece3d5a79d3e5f3377667660f0fcc5"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGwQuwM5PpoVE",
+          "commit": {
+            "abbreviatedOid": "303dd0d"
+          },
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-13T06:31:24Z",
+          "updatedAt": "2023-03-13T06:31:25Z",
+          "comments": [
+            {
+              "originalPosition": 146,
+              "body": "```suggestion\r\nThe following examples showcase COSE_key examples for both the G1 and G2 subgroups of the Bls12381 curve. Note, the examples also include the corresponding private key, expressed through the inclusion of the \u201cd\u201d (-4) parameter.\r\n```",
+              "createdAt": "2023-03-13T06:31:24Z",
+              "updatedAt": "2023-03-13T06:31:25Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGwQuwM5PvgrX",
+          "commit": {
+            "abbreviatedOid": "6b30ab2"
+          },
+          "author": "selfissued",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-03-13T19:55:35Z",
+          "updatedAt": "2023-03-13T19:55:35Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOGwQuwM5Pv69d",
+          "commit": {
+            "abbreviatedOid": "6b30ab2"
+          },
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-03-13T21:14:20Z",
+          "updatedAt": "2023-03-13T21:14:20Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "id": "PR_kwDOGwQuwM5L17pk",
+      "title": "feat: add expected lengths for sk and x and y coordinates of pk",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/20",
+      "state": "MERGED",
+      "author": "BasileiosKal",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-03-12T20:30:47Z",
+      "updatedAt": "2023-03-13T21:13:52Z",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "baseRefName": "main",
+      "baseRefOid": "6f309e06058b8cd1d302aa66d05009152387a37c",
+      "headRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "headRefName": "vaslis/expected-bit-lengths",
+      "headRefOid": "cf041a8fa329334e2bd5d8cfc6a227f38c936f22",
+      "closedAt": "2023-03-13T21:13:49Z",
+      "mergedAt": "2023-03-13T21:13:49Z",
+      "mergedBy": "tplooker",
+      "mergeCommit": {
+        "oid": "1de1a01e52c0323166168bb3fd33667d5738be94"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGwQuwM5Pvc4Y",
+          "commit": {
+            "abbreviatedOid": "cf041a8"
+          },
+          "author": "selfissued",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-03-13T19:46:04Z",
+          "updatedAt": "2023-03-13T19:46:04Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOGwQuwM5Pv6t9",
+          "commit": {
+            "abbreviatedOid": "cf041a8"
+          },
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-03-13T21:13:39Z",
+          "updatedAt": "2023-03-13T21:13:39Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "id": "PR_kwDOGwQuwM5deIfW",
+      "title": "Update references for -03",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/23",
+      "state": "MERGED",
+      "author": "selfissued",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-10-22T19:46:18Z",
+      "updatedAt": "2023-10-23T00:48:07Z",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "baseRefName": "main",
+      "baseRefOid": "c47f9ff87c1ca7325f3793fbbbb519c0afc521c1",
+      "headRepository": "selfissued/draft-ietf-cose-bls-key-representations",
+      "headRefName": "mbj-update-references-for-03",
+      "headRefOid": "6b781010f5297e7b9d9bc2537067ab9a0b5ce63b",
+      "closedAt": "2023-10-23T00:48:07Z",
+      "mergedAt": "2023-10-23T00:48:07Z",
+      "mergedBy": "tplooker",
+      "mergeCommit": {
+        "oid": "7782378cfe95f1f7ac2109b9efd5ce1a05c74703"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGwQuwM5k0w0j",
+          "commit": {
+            "abbreviatedOid": "6b78101"
+          },
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-10-23T00:48:02Z",
+          "updatedAt": "2023-10-23T00:48:02Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "id": "PR_kwDOGwQuwM5ohxH3",
+      "title": "Changed key type to EC/EC2",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/24",
+      "state": "MERGED",
+      "author": "selfissued",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Correct inconsistency identified by @dwaite.",
+      "createdAt": "2024-03-04T00:53:16Z",
+      "updatedAt": "2024-03-04T20:00:33Z",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "baseRefName": "main",
+      "baseRefOid": "7782378cfe95f1f7ac2109b9efd5ce1a05c74703",
+      "headRepository": "selfissued/draft-ietf-cose-bls-key-representations",
+      "headRefName": "mbj-use-EC-key-type",
+      "headRefOid": "52b6a3ce954001081c80a0fba7350aa93681a1f9",
+      "closedAt": "2024-03-04T20:00:33Z",
+      "mergedAt": "2024-03-04T20:00:33Z",
+      "mergedBy": "selfissued",
+      "mergeCommit": {
+        "oid": "629cda9f31fd310a70fb7061ec18f006bb22ccd8"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGwQuwM5yH-2-",
+          "commit": {
+            "abbreviatedOid": "52b6a3c"
+          },
+          "author": "BasileiosKal",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-03-04T15:58:48Z",
+          "updatedAt": "2024-03-04T15:58:48Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "id": "PR_kwDOGwQuwM5pUxux",
+      "title": "Replaced Bls with BLS",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/25",
+      "state": "MERGED",
+      "author": "selfissued",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Replaced instances of \"Bls\" with \"BLS\" since B., L., and S. are people's initials, just like \"RSA\" is three people's initials.\r\n\r\nFixes #22\r\n\r\nCc: @dwaite",
+      "createdAt": "2024-03-12T03:08:25Z",
+      "updatedAt": "2024-03-17T22:49:53Z",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "baseRefName": "main",
+      "baseRefOid": "629cda9f31fd310a70fb7061ec18f006bb22ccd8",
+      "headRepository": "selfissued/draft-ietf-cose-bls-key-representations",
+      "headRefName": "mbj-Bls-to-BLS",
+      "headRefOid": "350097fd99c1dfb68498c0c871d131c5c88c9796",
+      "closedAt": "2024-03-17T22:49:52Z",
+      "mergedAt": "2024-03-17T22:49:52Z",
+      "mergedBy": "selfissued",
+      "mergeCommit": {
+        "oid": "d3b97eb72a81a886e265c7f21fc41469138aba33"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGwQuwM5zJQ0k",
+          "commit": {
+            "abbreviatedOid": "350097f"
+          },
+          "author": "BasileiosKal",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-03-12T17:34:58Z",
+          "updatedAt": "2024-03-12T17:34:58Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "id": "PR_kwDOGwQuwM6GwjuJ",
+      "title": "Make two references informative",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/26",
+      "state": "MERGED",
+      "author": "selfissued",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "It looks likely that draft-irtf-cfrg-bls-signature and draft-irtf-cfrg-pairing-friendly-curves will never be finished.  Therefore, we need to make these references informative in order to finish the specification.",
+      "createdAt": "2025-01-05T20:23:22Z",
+      "updatedAt": "2025-01-08T21:06:27Z",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "baseRefName": "main",
+      "baseRefOid": "d3b97eb72a81a886e265c7f21fc41469138aba33",
+      "headRepository": "selfissued/draft-ietf-cose-bls-key-representations",
+      "headRefName": "mbj-update-references",
+      "headRefOid": "c0057bc4a91382c3b74228aaf7fc724a62151e88",
+      "closedAt": "2025-01-08T21:06:27Z",
+      "mergedAt": "2025-01-08T21:06:26Z",
+      "mergedBy": "tplooker",
+      "mergeCommit": {
+        "oid": "6e52fe1631e90439b6e8d461681718321258063b"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGwQuwM6XS09M",
+          "commit": {
+            "abbreviatedOid": "c0057bc"
+          },
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-01-08T21:06:12Z",
+          "updatedAt": "2025-01-08T21:06:12Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "id": "PR_kwDOGwQuwM6HYEKu",
+      "title": "Use actions/cache@v4 and actions/upload-artifact@v4",
+      "url": "https://github.com/tplooker/draft-ietf-cose-bls-key-representations/pull/27",
+      "state": "MERGED",
+      "author": "selfissued",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Stop builds from failing due to deprecated GitHub actions",
+      "createdAt": "2025-01-10T19:47:24Z",
+      "updatedAt": "2025-01-18T09:09:27Z",
+      "baseRepository": "tplooker/draft-ietf-cose-bls-key-representations",
+      "baseRefName": "main",
+      "baseRefOid": "6e52fe1631e90439b6e8d461681718321258063b",
+      "headRepository": "selfissued/draft-ietf-cose-bls-key-representations",
+      "headRefName": "mbj-update-github-actions",
+      "headRefOid": "814c7dccc925c4ab43e44afb77f46091e3de7c30",
+      "closedAt": "2025-01-18T09:09:26Z",
+      "mergedAt": "2025-01-18T09:09:26Z",
+      "mergedBy": "tplooker",
+      "mergeCommit": {
+        "oid": "dd7f9fe558b2e73eec163900300740bb4b709e92"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGwQuwM6YnD00",
+          "commit": {
+            "abbreviatedOid": "814c7dc"
+          },
+          "author": "tplooker",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-01-18T09:09:20Z",
+          "updatedAt": "2025-01-18T09:09:20Z",
           "comments": []
         }
       ]
